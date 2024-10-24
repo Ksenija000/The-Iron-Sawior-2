@@ -825,6 +825,8 @@ GameObject:
   - component: {fileID: 1179568822}
   - component: {fileID: 1179568825}
   - component: {fileID: 1179568824}
+  - component: {fileID: 1179568827}
+  - component: {fileID: 1179568826}
   m_Layer: 5
   m_Name: "\u0440\u043E\u0431\u043E\u0442"
   m_TagString: Untagged
@@ -951,6 +953,36 @@ CapsuleCollider2D:
   m_Offset: {x: -1.3781312, y: -1.3781312}
   m_Size: {x: 70.09883, y: 253.81392}
   m_Direction: 0
+--- !u!114 &1179568826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179568820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f4847b3769e8614f915d2d1a688173c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 700
+  lives: 5
+  jumpForce: 15
+--- !u!114 &1179568827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179568820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1310829072
 GameObject:
   m_ObjectHideFlags: 0
